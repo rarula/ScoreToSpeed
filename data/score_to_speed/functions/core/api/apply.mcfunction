@@ -14,8 +14,8 @@
 
 # 二分探索しながら適用
     execute store result score $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed get 10000
-    execute if score @s ScoreToSpeed <= $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed modifier add b2716c9c-acb5-4e03-bb3e-16 "ScoreToSpeed" -6.5536 add
-    execute if score @s ScoreToSpeed > $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed modifier add b2716c9c-acb5-4e03-bb3e-16 "ScoreToSpeed" 6.5536 add
+    execute if score @s ScoreToSpeed <= $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed modifier add b2716c9c-acb5-4e03-bb3e-16 "ScoreToSpeed" -6.5535 add
+    execute if score @s ScoreToSpeed > $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed modifier add b2716c9c-acb5-4e03-bb3e-16 "ScoreToSpeed" 6.5535 add
 
     execute store result score $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed get 10000
     execute if score @s ScoreToSpeed <= $Speed ScoreToSpeed run attribute @s minecraft:generic.movement_speed modifier add b2716c9c-acb5-4e03-bb3e-15 "ScoreToSpeed" -3.2768 add
